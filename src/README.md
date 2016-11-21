@@ -1,4 +1,4 @@
-NodeMCU Studio 
+NodeMCU Studio mod
 ==============
 
 A tool written in C# to help NodeMCU Developer
@@ -9,5 +9,6 @@ A tool written in C# to help NodeMCU Developer
 >https://github.com/4refr0nt/ESPlorer
 
 This is unofficial mod NodeMCU Studio, translated to Russian.
-Original source NodeMCU Studio 
-https://github.com/nodemcu/nodemcu-studio-csharp
+---------------------------------------------------
+>Original source NodeMCU Studio 
+>https://github.com/nodemcu/nodemcu-studio-csharp
