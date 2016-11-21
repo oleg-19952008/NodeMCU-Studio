@@ -1016,7 +1016,7 @@ namespace NodeMCU_Studio_2016
         '\'',
         '\''};
             this.textBoxConsole.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
-            this.textBoxConsole.AutoScrollMinSize = new System.Drawing.Size(43, 14);
+            this.textBoxConsole.AutoScrollMinSize = new System.Drawing.Size(18, 14);
             this.textBoxConsole.BackBrush = null;
             this.textBoxConsole.BracketsHighlightStrategy = FastColoredTextBoxNS.BracketsHighlightStrategy.Strategy2;
             this.textBoxConsole.CharHeight = 14;

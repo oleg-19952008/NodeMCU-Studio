@@ -1318,7 +1318,7 @@ namespace NodeMCU_Studio_2016
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Среда разработки для устройств основанных на прошивке NODEMCU, оригинальные исходники лежат на GitHub\nhttps://github.com/nodemcu/nodemcu-studio-csharp\n Исходники этой версии лежат на GitHub");
+            MessageBox.Show("Среда разработки для устройств основанных на прошивке NODEMCU, оригинальные исходники лежат на GitHub\nhttps://github.com/nodemcu/nodemcu-studio-csharp\n Исходники этой версии лежат на GitHub\nhttps://github.com/oleg-19952008/NodeMCU-Studio");
 
         }
 
