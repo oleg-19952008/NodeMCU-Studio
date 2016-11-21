@@ -1,0 +1,33 @@
+﻿<Window x:Class="NodeMCU_Studio_2016.StartScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="StartingUp"  Height="450" Width="345" Background="#FF008AFF" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" >
+    <Grid Margin="0,0,0.333,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="73*"/>
+        </Grid.RowDefinitions>
+        <Image Margin="0,0,-23.667,0.333" Source="resources/1080x1920-HD-wallpapers-samsung-htc-android-smartphone-3640lxlif-1080P.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+
+        <Image HorizontalAlignment="Left" Height="31" Margin="0,3.333,0,0" VerticalAlignment="Top" Width="35" Source="三角.png" Grid.Row="1" Grid.ColumnSpan="2"
+               Grid.Column="0" />
+        <Image HorizontalAlignment="Left" Height="52" Margin="-19.658,14.25,0,0" VerticalAlignment="Top" Width="41" Source="nodemcu.ico"
+               Grid.Row="0" Grid.Column="1" />
+        <Label Content="NodeMCU Studio" HorizontalAlignment="Left" Height="47" Margin="23.583,14.25,0,0" VerticalAlignment="Top" Width="287.176" Foreground="White" FontFamily="Tahoma" FontSize="32"
+               Grid.Row="0" Grid.Column="1"/>
+        <Label Content="  VER 0.5.1" HorizontalAlignment="Left" Height="34" Margin="120.569,0,0,68" VerticalAlignment="Bottom" Width="133.857" FontFamily="Nirmala UI" FontSize="18" Foreground="White"
+               Grid.Column="1" RenderTransformOrigin="0.768,0.641" Grid.Row="1" />
+        <Label Content="This program is licensed under GNU GPL V3" HorizontalAlignment="Left" Height="31" Margin="-3.908,302,-0.333,0" Grid.Row="1" VerticalAlignment="Top" Width="325" Foreground="#FFADDBFE"
+               Grid.Column="1" />
+        <Label Content="IDE for NodeMCU  " HorizontalAlignment="Left" Height="31" Margin="0,324,-4.241,0" Grid.Row="1" VerticalAlignment="Top" Width="325" Foreground="#FFADDBFE" Grid.Column="1"/>
+
+    </Grid>
+</Window>
+
