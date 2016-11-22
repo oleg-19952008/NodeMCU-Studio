@@ -1088,7 +1088,7 @@ namespace NodeMCU_Studio_2016
             var filename = Path.GetFileName(tsFiles.SelectedItem.Tag as string);
 
             DoSerialPortAction(
-                () => ExecuteWaitAndRead(string.Format("dofile(\"{0}\")", Utilities.Escape(filename)), _ =>
+                () => ExecuteWaitAndRead(string.Format("dofile('"+Utilities.Escape(filename))+"')",  _ =>
                     {
                         MessageBox.Show(Resources.execute_succeeded);
                     }), () => { });
@@ -1330,6 +1330,16 @@ namespace NodeMCU_Studio_2016
         private void cmMain_Opening(object sender, CancelEventArgs e)
         {
            // MessageBox.Show("sad");
+        }
+
+        private void textBoxConsole_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ssMain_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 

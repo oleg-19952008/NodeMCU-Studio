@@ -372,6 +372,7 @@ namespace NodeMCU_Studio_2016
             this.ssMain.TabIndex = 2;
             this.ssMain.Text = "statusStrip1";
             this.ssMain.UseWaitCursor = true;
+            this.ssMain.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.ssMain_ItemClicked);
             // 
             // lbWordUnderMouse
             // 
@@ -967,7 +968,6 @@ namespace NodeMCU_Studio_2016
             this.dgvObjectExplorer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvObjectExplorer.Size = new System.Drawing.Size(172, 537);
             this.dgvObjectExplorer.TabIndex = 6;
-            this.dgvObjectExplorer.UseWaitCursor = true;
             this.dgvObjectExplorer.VirtualMode = true;
             this.dgvObjectExplorer.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvObjectExplorer_CellMouseDoubleClick);
             this.dgvObjectExplorer.CellValueNeeded += new System.Windows.Forms.DataGridViewCellValueEventHandler(this.dgvObjectExplorer_CellValueNeeded);
@@ -1043,8 +1043,8 @@ namespace NodeMCU_Studio_2016
             this.textBoxConsole.Size = new System.Drawing.Size(740, 158);
             this.textBoxConsole.TabIndex = 10;
             this.textBoxConsole.Text = "> ";
-            this.textBoxConsole.UseWaitCursor = true;
             this.textBoxConsole.Zoom = 100;
+            this.textBoxConsole.Load += new System.EventHandler(this.textBoxConsole_Load);
             // 
             // panel1
             // 
