@@ -14,7 +14,7 @@
             <RowDefinition Height="17*"/>
             <RowDefinition Height="73*"/>
         </Grid.RowDefinitions>
-        <Image Margin="0,0,-23.667,0.333" Source="resources/logo.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Image Margin="0,0,-23.667,0.333" Source="resources/logo.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="2" Cursor="Wait"/>
 
         <Image HorizontalAlignment="Left" Height="31" Margin="0,3.333,0,0" VerticalAlignment="Top" Width="35" Source="三角.png" Grid.Row="1" Grid.ColumnSpan="2"
                Grid.Column="0" />

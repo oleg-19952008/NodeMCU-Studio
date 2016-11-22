@@ -243,7 +243,7 @@ namespace NodeMCU_Studio_2016
                 if (text.Length == 0)
                     return;
                 //highlight same words
-                Range[] ranges = tb.VisibleRange.GetRanges("\\b" + text + "\\b").ToArray();
+                var ranges = tb.VisibleRange.GetRanges("\\b" + text + "\\b").ToArray();
 
                 if (ranges.Length > 1)
                     foreach (var r in ranges)
@@ -704,7 +704,7 @@ namespace NodeMCU_Studio_2016
 
         private void NavigateForward()
         {
-            DateTime min = DateTime.Now;
+            var min = DateTime.Now;
             int iLine = -1;
             FastColoredTextBox tb = null;
             for (int iTab = 0; iTab < tsFiles.Items.Count; iTab++)
@@ -1325,6 +1325,11 @@ namespace NodeMCU_Studio_2016
         private void rescanToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cmMain_Opening(object sender, CancelEventArgs e)
+        {
+           // MessageBox.Show("sad");
         }
     }
 

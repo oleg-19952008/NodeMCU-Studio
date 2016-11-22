@@ -176,7 +176,7 @@ namespace NodeMCU_Studio_2016
             this.newToolStripMenuItem.Image = global::NodeMCU_Studio_2016.Properties.Resources.Newfile;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -185,7 +185,7 @@ namespace NodeMCU_Studio_2016
             this.openToolStripMenuItem.Image = global::NodeMCU_Studio_2016.Properties.Resources.Openfile;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -195,28 +195,28 @@ namespace NodeMCU_Studio_2016
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.saveToolStripMenuItem.Text = "Сохранить";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.saveAsToolStripMenuItem.Text = "Save as ...";
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.saveAsToolStripMenuItem.Text = "Сохранить как ...";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(143, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(169, 6);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
             this.quitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.quitToolStripMenuItem.Text = "Exit";
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.quitToolStripMenuItem.Text = "Выход";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
@@ -236,8 +236,8 @@ namespace NodeMCU_Studio_2016
             this.cutToolStripMenuItem1.Image = global::NodeMCU_Studio_2016.Properties.Resources.Cut;
             this.cutToolStripMenuItem1.Name = "cutToolStripMenuItem1";
             this.cutToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.cutToolStripMenuItem1.Text = "Cut";
+            this.cutToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
+            this.cutToolStripMenuItem1.Text = "Вырезать";
             this.cutToolStripMenuItem1.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem1
@@ -245,8 +245,8 @@ namespace NodeMCU_Studio_2016
             this.copyToolStripMenuItem1.Image = global::NodeMCU_Studio_2016.Properties.Resources.Copy;
             this.copyToolStripMenuItem1.Name = "copyToolStripMenuItem1";
             this.copyToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.copyToolStripMenuItem1.Text = "Copy";
+            this.copyToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
+            this.copyToolStripMenuItem1.Text = "Копировать";
             this.copyToolStripMenuItem1.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem1
@@ -254,8 +254,8 @@ namespace NodeMCU_Studio_2016
             this.pasteToolStripMenuItem1.Image = global::NodeMCU_Studio_2016.Properties.Resources.Paste;
             this.pasteToolStripMenuItem1.Name = "pasteToolStripMenuItem1";
             this.pasteToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.pasteToolStripMenuItem1.Text = "Paste";
+            this.pasteToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
+            this.pasteToolStripMenuItem1.Text = "Вставить";
             this.pasteToolStripMenuItem1.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // undoToolStripMenuItem1
@@ -263,8 +263,8 @@ namespace NodeMCU_Studio_2016
             this.undoToolStripMenuItem1.Image = global::NodeMCU_Studio_2016.Properties.Resources.Undo;
             this.undoToolStripMenuItem1.Name = "undoToolStripMenuItem1";
             this.undoToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.undoToolStripMenuItem1.Text = "Undo";
+            this.undoToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
+            this.undoToolStripMenuItem1.Text = "Отменить";
             this.undoToolStripMenuItem1.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
             // redoToolStripMenuItem1
@@ -272,8 +272,8 @@ namespace NodeMCU_Studio_2016
             this.redoToolStripMenuItem1.Image = global::NodeMCU_Studio_2016.Properties.Resources.Redo;
             this.redoToolStripMenuItem1.Name = "redoToolStripMenuItem1";
             this.redoToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.redoToolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.redoToolStripMenuItem1.Text = "Redo";
+            this.redoToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
+            this.redoToolStripMenuItem1.Text = "Повторить";
             this.redoToolStripMenuItem1.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -290,8 +290,8 @@ namespace NodeMCU_Studio_2016
             // 
             this.invisibleCharsToolStripMenuItem.CheckOnClick = true;
             this.invisibleCharsToolStripMenuItem.Name = "invisibleCharsToolStripMenuItem";
-            this.invisibleCharsToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.invisibleCharsToolStripMenuItem.Text = "Invisible Chars";
+            this.invisibleCharsToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.invisibleCharsToolStripMenuItem.Text = "Невидимые символы";
             this.invisibleCharsToolStripMenuItem.Click += new System.EventHandler(this.btInvisibleChars_Click);
             // 
             // highlightCurrentLineToolStripMenuItem
@@ -299,7 +299,7 @@ namespace NodeMCU_Studio_2016
             this.highlightCurrentLineToolStripMenuItem.CheckOnClick = true;
             this.highlightCurrentLineToolStripMenuItem.Image = global::NodeMCU_Studio_2016.Properties.Resources.HL;
             this.highlightCurrentLineToolStripMenuItem.Name = "highlightCurrentLineToolStripMenuItem";
-            this.highlightCurrentLineToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.highlightCurrentLineToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.highlightCurrentLineToolStripMenuItem.Text = "Highlight Current Line";
             this.highlightCurrentLineToolStripMenuItem.Click += new System.EventHandler(this.btHighlightCurrentLine_Click);
             // 
@@ -310,7 +310,7 @@ namespace NodeMCU_Studio_2016
             this.showFoldingLineToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.showFoldingLineToolStripMenuItem.Image = global::NodeMCU_Studio_2016.Properties.Resources.Fould;
             this.showFoldingLineToolStripMenuItem.Name = "showFoldingLineToolStripMenuItem";
-            this.showFoldingLineToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.showFoldingLineToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.showFoldingLineToolStripMenuItem.Text = "Show Folding Lines";
             this.showFoldingLineToolStripMenuItem.Click += new System.EventHandler(this.btShowFoldingLines_Click);
             // 
@@ -371,6 +371,7 @@ namespace NodeMCU_Studio_2016
             this.ssMain.Size = new System.Drawing.Size(918, 23);
             this.ssMain.TabIndex = 2;
             this.ssMain.Text = "statusStrip1";
+            this.ssMain.UseWaitCursor = true;
             // 
             // lbWordUnderMouse
             // 
@@ -786,6 +787,7 @@ namespace NodeMCU_Studio_2016
             this.splitter1.Size = new System.Drawing.Size(3, 537);
             this.splitter1.TabIndex = 5;
             this.splitter1.TabStop = false;
+            this.splitter1.UseWaitCursor = true;
             // 
             // sfdMain
             // 
@@ -818,6 +820,7 @@ namespace NodeMCU_Studio_2016
             this.cloneLinesAndCommentToolStripMenuItem});
             this.cmMain.Name = "cmMain";
             this.cmMain.Size = new System.Drawing.Size(219, 308);
+            this.cmMain.Opening += new System.ComponentModel.CancelEventHandler(this.cmMain_Opening);
             // 
             // cutToolStripMenuItem
             // 
@@ -949,7 +952,7 @@ namespace NodeMCU_Studio_2016
             this.dgvObjectExplorer.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.clImage,
             this.clName});
-            this.dgvObjectExplorer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dgvObjectExplorer.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.dgvObjectExplorer.Dock = System.Windows.Forms.DockStyle.Left;
             this.dgvObjectExplorer.GridColor = System.Drawing.Color.White;
             this.dgvObjectExplorer.Location = new System.Drawing.Point(0, 49);
@@ -964,6 +967,7 @@ namespace NodeMCU_Studio_2016
             this.dgvObjectExplorer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvObjectExplorer.Size = new System.Drawing.Size(172, 537);
             this.dgvObjectExplorer.TabIndex = 6;
+            this.dgvObjectExplorer.UseWaitCursor = true;
             this.dgvObjectExplorer.VirtualMode = true;
             this.dgvObjectExplorer.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvObjectExplorer_CellMouseDoubleClick);
             this.dgvObjectExplorer.CellValueNeeded += new System.Windows.Forms.DataGridViewCellValueEventHandler(this.dgvObjectExplorer_CellValueNeeded);
@@ -998,6 +1002,7 @@ namespace NodeMCU_Studio_2016
             this.textBoxCommand.Name = "textBoxCommand";
             this.textBoxCommand.Size = new System.Drawing.Size(734, 20);
             this.textBoxCommand.TabIndex = 8;
+            this.textBoxCommand.UseWaitCursor = true;
             this.textBoxCommand.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCommand_KeyPress);
             // 
             // textBoxConsole
@@ -1016,13 +1021,13 @@ namespace NodeMCU_Studio_2016
         '\'',
         '\''};
             this.textBoxConsole.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
-            this.textBoxConsole.AutoScrollMinSize = new System.Drawing.Size(18, 14);
+            this.textBoxConsole.AutoScrollMinSize = new System.Drawing.Size(43, 14);
             this.textBoxConsole.BackBrush = null;
             this.textBoxConsole.BracketsHighlightStrategy = FastColoredTextBoxNS.BracketsHighlightStrategy.Strategy2;
             this.textBoxConsole.CharHeight = 14;
             this.textBoxConsole.CharWidth = 8;
             this.textBoxConsole.CommentPrefix = "--";
-            this.textBoxConsole.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxConsole.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.textBoxConsole.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.textBoxConsole.IsReplaceMode = false;
             this.textBoxConsole.Language = FastColoredTextBoxNS.Language.Lua;
@@ -1038,6 +1043,7 @@ namespace NodeMCU_Studio_2016
             this.textBoxConsole.Size = new System.Drawing.Size(740, 158);
             this.textBoxConsole.TabIndex = 10;
             this.textBoxConsole.Text = "> ";
+            this.textBoxConsole.UseWaitCursor = true;
             this.textBoxConsole.Zoom = 100;
             // 
             // panel1
@@ -1050,6 +1056,7 @@ namespace NodeMCU_Studio_2016
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(743, 162);
             this.panel1.TabIndex = 11;
+            this.panel1.UseWaitCursor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -1066,6 +1073,7 @@ namespace NodeMCU_Studio_2016
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(740, 27);
             this.tableLayoutPanel1.TabIndex = 10;
+            this.tableLayoutPanel1.UseWaitCursor = true;
             // 
             // PowerfulLuaEditor
             // 
@@ -1079,10 +1087,13 @@ namespace NodeMCU_Studio_2016
             this.Controls.Add(this.tsMain);
             this.Controls.Add(this.msMain);
             this.Controls.Add(this.ssMain);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.msMain;
             this.MinimumSize = new System.Drawing.Size(850, 647);
             this.Name = "PowerfulLuaEditor";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NodeMCU Studio 2016 unofficial build";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PowerfulLuaEditor_FormClosing);
